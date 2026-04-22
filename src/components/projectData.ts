@@ -1,5 +1,14 @@
 export const projects = [
     {
+        title: 'Vallote',
+        description: '',
+        image: '/images/vallote.png',
+        technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Hero UI', 'Firebase', 'Tailwind CSS', 'Geocoding API'],
+        liveUrl: 'https://vallote.vercel.app/',
+        githubUrl: 'https://github.com',
+        category: 'Next.js'
+    },
+    {
         title: 'MedCoin',
         description: '',
         image: '/images/medcoin.png',
@@ -9,11 +18,29 @@ export const projects = [
         category: 'React JS'
     },
     {
+        title: 'Magicine Pharma',
+        description: 'Magicine Pharma is an online healthcare platform offering services like medicine delivery, lab tests, doctor consultations, and more. I designed and developed the entire website, integrated multiple APIs to fetch dynamic data, implemented Google authentication, and used geocoding to detect users’ current locations. The platform also supports secure online payments through PayPal, Razorpay, and Cash on Delivery.',
+        image: '/images/magicine-pharma.png',
+        technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Next UI', 'Firebase', 'Tailwind CSS', 'Geocoding API'],
+        liveUrl: 'https://www.magicinepharma.com/',
+        githubUrl: 'https://github.com',
+        category: 'Next.js'
+    },
+    {
         title: 'Shootezy',
         description: '',
         image: '/images/shootezy.png',
         technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Hero UI', 'Firebase', 'Tailwind CSS', 'Geocoding API'],
         liveUrl: 'https://shootesy.com/',
+        githubUrl: 'https://github.com',
+        category: 'Next.js'
+    },
+    {
+        title: 'Vinova',
+        description: '',
+        image: '/images/vinova.png',
+        technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Hero UI', 'Firebase', 'Tailwind CSS', 'Geocoding API'],
+        liveUrl: 'https://vinova.store/',
         githubUrl: 'https://github.com',
         category: 'Next.js'
     },
@@ -36,20 +63,29 @@ export const projects = [
         category: 'Others'
     },
     {
-        title: 'Vinova',
+        title: 'CSN India',
         description: '',
-        image: '/images/vinova.png',
-        technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Hero UI', 'Firebase', 'Tailwind CSS', 'Geocoding API'],
-        liveUrl: 'https://vinova.store/',
+        image: '/images/csn.png',
+        technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Hero UI', 'Tailwind CSS',],
+        liveUrl: 'https://csn-eta.vercel.app/',
         githubUrl: 'https://github.com',
         category: 'Next.js'
     },
     {
-        title: 'Magicine Pharma',
-        description: 'Magicine Pharma is an online healthcare platform offering services like medicine delivery, lab tests, doctor consultations, and more. I designed and developed the entire website, integrated multiple APIs to fetch dynamic data, implemented Google authentication, and used geocoding to detect users’ current locations. The platform also supports secure online payments through PayPal, Razorpay, and Cash on Delivery.',
-        image: '/images/magicine-pharma.png',
-        technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Next UI', 'Firebase', 'Tailwind CSS', 'Geocoding API'],
-        liveUrl: 'https://www.magicinepharma.com/',
+        title: 'Ask Service',
+        description: '',
+        image: '/images/ask-service.png',
+        technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Hero UI', 'Tailwind CSS',],
+        liveUrl: 'https://ask-service.vercel.app/',
+        githubUrl: 'https://github.com',
+        category: 'Next.js'
+    },
+    {
+        title: 'Taaluma',
+        description: '',
+        image: '/images/taaluma.png',
+        technologies: ['Next.js', 'TypeScript', 'Redux Toolkit', 'Hero UI', 'Tailwind CSS',],
+        liveUrl: 'https://taalumaworld.vercel.app/',
         githubUrl: 'https://github.com',
         category: 'Next.js'
     },
